@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(to bottom, #2c3e50, #4ca1af);
+            color: white;
+        }
+
+        h1#main-heading {
+            text-align: center;
+            font-size: 2.5em;
+            margin-bottom: 20px;
+        }
+
+        .header {
+            display: flex;
+            flex-direction: column;
+        }
+        .container {
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+        }
+
+        .boxes {
+            margin: 10px;
+            background-color: #34495e;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            width: 30%;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .boxes h1 {
+            font-size: 1.5em;
+        }
+
+        .boxes button {
+            background-color: transparent;
+            border: 2px solid white;
+            border-radius: 5px;
+            padding: 10px 20px;
+            font-size: 1em;
+            color: white;
+            cursor: pointer;
+        }
+
+        .boxes button:hover {
+            background-color: white;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+<div class="header">
+<h1 id="main-heading">Event Listeners</h1>
+</div>
+<div class="container">
+    <div class="boxes box-1">
+        <h1 id="heading">Example 1</h1>
+        <button onclick="alert('I love JavaScripts')">Enter</button>
+    </div>
+    <div class="boxes box-2">
+        <h1 id="heading">Example 2</h1>
+        <button class="btn-2">Enter</button>
+    </div>
+    <div class="boxes box-3">
+        <h1 id="heading">Example 3</h1>
+        <button class="btn-3">Enter</button>
+    </div>
+</div>
+</body>
+<script src="listeners.js"></script>
+</html>

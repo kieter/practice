@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Listeners</title>
+    <style>
+        body {
+            text-align: center;
+            margin: 100px;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #1e2a38;
+            color: white;
+            height: 100vh;
+        }
+
+        .container {
+            display: flex;
+            /*text-align: center;*/
+        }
+        /*.container.reveal-btn {*/
+        /*    flex-basis: 20%;*/
+        /*}*/
+
+        /*.container.hidden-content {*/
+        /*    flex-basis: 80%;*/
+        /*}*/
+
+        .boxes {
+            color: white;
+            border: 2px solid white;
+            border-radius: 10px;
+            padding: 20px;
+            cursor: pointer;
+            background-color: #2e3a4a;
+        }
+        .box:hover {
+            background-color: #3e4a5a;
+        }
+
+        .hidden-content {
+            display: none;
+        }
+
+        .hidden-content.reveal-btn {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<h1 id="main-heading">Event Listeners</h1>
+
+<div class="container">
+    <button class="reveal-btn boxes">Reveal More</button>
+
+    <div class="hidden-content boxes">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia distinctio hic facilis, repudiandae distinctio incidunt quisquam neque officiis quibusdam cum quam suscipit dolorem animi aliquid harum. Unde sed illo aut officiis inventore quod quibusdam, ipsam aliquam reprehenderit ad minima sit ipsa? Ducimus nesciunt laudantium deleniti porro maxime molestias reiciendis, hic omnis?
+    </div>
+</div>
+</body>
+
+<script src="reveal.js"></script>
+
+</html>
