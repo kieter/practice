@@ -1,0 +1,13 @@
+<!doctype html>
+<html>
+    <body>
+    <button id="button">button</button>
+    </body>
+    <script>
+        const button = document.getElementById('button');
+        button.addEventListener('click', function() {
+            console.log(this); // refers to the button element
+        });
+    </script>
+
+</html>

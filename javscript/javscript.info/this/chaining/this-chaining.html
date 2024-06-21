@@ -1,0 +1,23 @@
+<!doctype html>
+<script src="https://en.js.cx/test/libs.js"></script>
+<script src="this-chaining.test.js"></script>
+<script>
+    let ladder = {
+        step: 0,
+        up() {
+            this.step++;
+            return this;
+        },
+        down() {
+            this.step--;
+            return this;
+        },
+        showStep: function() { // shows the current step
+            alert( this.step );
+            return this;
+        }
+    };
+
+</script>
+
+</html>

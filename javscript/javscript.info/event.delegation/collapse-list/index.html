@@ -1,7 +1,8 @@
 <!DOCTYPE HTML>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
+    <title></title>
 </head>
 <body>
 
@@ -62,6 +63,7 @@
         if (e.target.tagName === 'LI') {
             console.log(e.target);
             const children = e.target.children;
+            let i;
             for (i = 0; i < children.length; i++) {
                 children[i].hidden = !children[i].hidden
 
