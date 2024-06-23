@@ -1,0 +1,15 @@
+<html lang="en">
+<script>
+    function sumInput() {
+        let numbers = [];
+        while(true) {
+            let input = prompt('Number please', '');
+            if (input === '' || !isFinite(input) || input === null /* value of cancel*/) { break }
+            numbers.push(+input)
+        }
+        const result = numbers.reduce((total, number) => { return total + number});
+        alert(result)
+    }
+    sumInput()
+</script>
+</html>
