@@ -1,0 +1,12 @@
+planet {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-rows: 50px 50px 50px 50px;
+    grid-row-gap: 50px;
+    grid-column-gap: 5%;
+    grid-auto-rows: 50px;
+}
+
+dunes {
+    grid-row: span 2;
+}

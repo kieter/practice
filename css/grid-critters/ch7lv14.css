@@ -1,0 +1,13 @@
+planet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 50px;
+    grid-template-rows: repeat(3, 1fr);
+    grid-row-gap: 50px;
+    grid-auto-columns: 0.5fr;
+    grid-auto-flow: dense;
+}
+
+rocky {
+    grid-column: span 6;
+}
