@@ -1,0 +1,26 @@
+planet {
+    display: grid;
+    grid-template-columns: .5fr minmax(auto, 1fr) .5fr;
+    grid-template-rows: 1fr;
+}
+
+dunes {
+    justify-self: center;
+    align-self: center;
+}
+
+water {
+    order: 1;
+    height: 50%;
+    width: 40%;
+    justify-self: start;
+    align-self: center;
+}
+
+rocky {
+    order: -1;
+    height: 50%;
+    width: 40%;
+    justify-self: end;
+    align-self: center;
+}

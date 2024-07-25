@@ -1,0 +1,28 @@
+planet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 10%;
+    grid-template-rows: repeat(4, 1fr);
+    grid-row-gap: 5vh;
+    grid-template-areas: "grass dunes dunes"
+                       "grass dunes dunes"
+                       "grass rocky rocky"
+                       "grass rocky rocky";
+}
+
+grass {
+    width: 65%;
+    grid-area: grass;
+    justify-self: end;
+}
+
+dunes {
+    height: 65%;
+    grid-area: dunes;
+    align-self: end;
+}
+
+rocky {
+    height: 65%;
+    grid-area: rocky
+}

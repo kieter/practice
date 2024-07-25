@@ -1,0 +1,15 @@
+planet {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    grid-auto-rows: 1fr;
+    justify-items: center;
+}
+
+water {
+    justify-self: end;
+}
+
+terrain {
+    width: 25%;
+}

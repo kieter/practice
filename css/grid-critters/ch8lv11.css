@@ -1,0 +1,18 @@
+planet {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+    grid-template-rows: repeat(2, 1fr);
+    grid-auto-flow: column;
+}
+
+rocky {
+    width: 50%;
+}
+
+dunes {
+    width: 50%;
+    height: 50%;
+    justify-self: end;
+    align-self: end;
+}

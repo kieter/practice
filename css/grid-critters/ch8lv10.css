@@ -1,0 +1,18 @@
+planet {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2fr 1fr;
+}
+
+rocky {
+    height: 125px;
+    width: 75px;
+    justify-self: end;
+    align-self: end;
+}
+
+water {
+    height: 75px;
+    width: 125px;
+    justify-self: center;
+}
