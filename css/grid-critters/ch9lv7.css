@@ -1,0 +1,7 @@
+planet {
+    display: grid;
+    grid-template-rows: 1fr;
+    justify-content: stretch;
+    grid-template-columns: auto 100px auto;
+    grid-column-gap: 30px;
+}

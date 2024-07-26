@@ -1,0 +1,26 @@
+planet {
+    display: grid;
+    grid-template-columns: 10vw 20vw 10vw;
+    grid-template-rows: 10vh 30vh 10vh;
+    justify-content: center;
+    align-content: space-around;
+    grid-template-areas: "dunes grass rocky"
+                       "..... grass rocky"
+                       "water grass .....";
+}
+
+rocky {
+    grid-area: rocky;
+}
+
+grass {
+    grid-area: grass;
+}
+
+dunes {
+    grid-area: dunes;
+}
+
+water {
+    grid-area: water;
+}

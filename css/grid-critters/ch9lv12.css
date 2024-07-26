@@ -1,0 +1,7 @@
+planet {
+    display: grid;
+    grid-template-columns: 50px minmax(50px, auto) 200px;
+    grid-template-rows: max-content;
+    justify-content: center;
+    align-content: end;
+}

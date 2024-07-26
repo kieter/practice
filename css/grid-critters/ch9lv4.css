@@ -1,0 +1,6 @@
+planet {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 200px 200px 200px;
+    justify-content: space-between;
+}

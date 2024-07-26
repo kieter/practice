@@ -1,0 +1,17 @@
+planet {
+    display: grid;
+    grid-template-columns: 100px 30% 100px 100px;
+    grid-template-rows: 100px 100px 30%;
+    justify-content: space-around;
+    align-content: space-between;
+}
+
+rocky {
+    height: 50%;
+    align-self: end;
+}
+
+dunes {
+    width: 50%;
+    justify-self: center;
+}

@@ -1,0 +1,10 @@
+planet {
+    display: grid;
+    grid-template-columns: 40% 20%;
+    grid-template-rows: 40% 20%;
+    grid-column-gap: 100px;
+    grid-row-gap: 50px;
+    justify-content: end;
+    align-content: end;
+
+}
