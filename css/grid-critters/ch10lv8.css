@@ -1,0 +1,19 @@
+planet {
+    display: grid;
+    grid-template: "..... ..... dunes" 40%
+                 "..... water dunes" 1fr
+                 "rocky water dunes" 40% / 1fr 1fr 1fr;
+    grid-gap: 0 10vw;
+}
+
+water {
+    grid-area: water;
+}
+
+rocky {
+    grid-area: rocky;
+}
+
+dunes {
+    grid-area: dunes;
+}

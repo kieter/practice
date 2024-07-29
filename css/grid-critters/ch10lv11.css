@@ -1,0 +1,15 @@
+planet {
+    display: grid;
+    grid: 1fr / auto-flow 15%;
+    justify-content: space-between;
+}
+
+dunes {
+    height: 25%;
+    align-self: center;
+}
+
+rocky {
+    height: 50%;
+    align-self: end;
+}

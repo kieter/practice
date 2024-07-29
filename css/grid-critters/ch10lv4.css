@@ -1,0 +1,15 @@
+planet {
+    display: grid;
+    grid-template-columns: 1fr 30% 1fr;
+    grid-template-rows: 1fr 30% 1fr;
+    grid-gap: 50px;
+}
+
+rocky {
+    grid-row: 2;
+    grid-column: 2;
+}
+
+water {
+    grid-row: 3
+}

@@ -1,0 +1,10 @@
+planet {
+    display: grid;
+    grid: 25% 25% 1fr / 1fr 1fr 1fr;
+    grid-gap: 20px 20px;
+    grid-auto-flow: column;
+}
+
+rocky {
+    grid-area: 2 / 2 / 3 / 4;
+}

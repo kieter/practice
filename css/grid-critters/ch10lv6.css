@@ -1,0 +1,15 @@
+planet {
+    display: grid;
+    grid-template-columns: 20vw 1fr 1fr 20vw;
+    grid-template-rows: 20vh 1fr 1fr 20vh;
+}
+
+water {
+    grid-area: 1 / 1 / 3 / 4;
+
+}
+
+dunes {
+    grid-area: 3 / 2 / 5 / 5;
+
+}
