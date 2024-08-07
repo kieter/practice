@@ -1,6 +1,6 @@
 // DOM Manipulation
 
-// Event Propagation
+// Event Propagation becaues of the third argument in the addEventListener method is set to true (capturing phase)
 
 window.addEventListener("click", function() {
     console.log("Window");
