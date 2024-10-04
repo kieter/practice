@@ -1,0 +1,25 @@
+.image {
+    height: 200px;
+    width: 200px;
+    background-color: red;
+}
+
+.gallery-container {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-gap: 100px;
+}
+
+.block {
+    grid-column: 1 / 4;
+    background-color: red;
+    height: 1500px;
+    font-size: 100px;
+    display: flex;
+    justify-content: center; /* centers horizontally */
+    align-items: center;     /* centers vertically */
+}
+
+.debug {
+    margin-bottom: 100px;
+}
