@@ -5,7 +5,7 @@ import {render} from "react-dom";
 function ImageGallery({ images }) {
     const renderImages = () => {
         return images.map((src, i) => {
-            return <IntersectionImage src={src} key={i}/>
+            return <LazyImage src={src} key={i}/>
         })
     }
 
@@ -17,7 +17,7 @@ function ImageGallery({ images }) {
     );
 }
 
-function IntersectionImage({src}) {
+function LazyImage({src}) {
     const [intersecting, setIntersecting] = useState(false);
     // const [intersectionRatio, setIntersectionRatio] = useState(0);
     const imgRef = useRef(null);
@@ -29,9 +29,9 @@ function IntersectionImage({src}) {
     }
 
     const observerOptions = {
-        root: null,
-        rootMargin: "0px",
-        threshold: 0
+        root: null, // defaults to the browser viewport
+        rootMargin: "0px", // intersect margin
+        threshold: 0 // ratio of required intersection, 0 means even a little, 1 means completely
     }
 
     useEffect(() => {
