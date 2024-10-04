@@ -1,0 +1,23 @@
+body {
+    font-family: sans-serif;
+}
+
+.loading-bar {
+    margin-bottom: 10px;
+    background-color: lightgrey;
+    /* color: grey; */
+    border: 1px red dashed;
+    height: 10px;
+}
+
+.loading-bar .progress {
+    background: green;
+    height: 10px;
+    animation: load 2s;
+    width: 100%;
+}
+
+@keyframes load {
+    from { width: 0%; }
+    to { width: 100%; }
+}
