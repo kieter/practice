@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-left {
+    top: 50%;
+    left: 2%;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+.button-right {
+    top: 50%;
+    right: 2%;
+    transform: translate(0, -50%);
+    position: absolute;
+}
+
+.carousel-container {
+    position: relative;
+    outline: red 1px dashed;
+}
+
+.carousel-container img {
+    height: 400px;
+    width: 600px;
+}
+
+.image-map-container {
+    top: 95%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+.image-map-container button {
+    margin: 0 5px;
+}
