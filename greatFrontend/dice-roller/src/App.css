@@ -1,0 +1,28 @@
+#root {
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  display: grid;
+  grid-template-rows: auto auto 1fr;
+  grid-template-columns: 1fr;
+}
+
+.dice-container {
+  background-color: #E7E8EA;
+  margin-top: 30px;
+  padding: 30px;
+  border: 1px black solid;
+  display: grid;
+  justify-items: center;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 500px;
+}

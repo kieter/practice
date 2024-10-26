@@ -1,0 +1,62 @@
+.dice {
+    background-color: white;
+    height: 100px;
+    width: 100px;
+    border: 1px black solid;
+    padding: 10px;
+    border-radius: 20px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: "top-left top-center top-right"
+                         "middle-left middle-center middle-right"
+                         "bottom-left bottom-center bottom-right";
+}
+
+.pip {;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    background-color: black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.top-left {
+    grid-area: top-left;
+}
+.top-center {
+    grid-area: top-center;
+}
+
+.top-right {
+    grid-area: top-right;
+}
+
+.middle-left {
+    grid-area: middle-left;
+}
+
+.middle-center {
+    grid-area: middle-center;
+}
+
+.middle-right {
+    grid-area: middle-right;
+}
+
+.bottom-left {
+    grid-area: bottom-left;
+}
+
+.bottom-center {
+    grid-area: bottom-center;
+}
+
+.bottom-right {
+    grid-area: bottom-right;
+}
