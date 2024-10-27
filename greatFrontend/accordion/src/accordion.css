@@ -1,0 +1,12 @@
+.title-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content-container {
+    text-align: left;
+}
+
+.hidden {
+    display: none;
+}
