@@ -1,0 +1,27 @@
+:root {
+    --color-primary: green;
+    --color-secondary: grey;
+    --color-cancel: red;
+}
+
+.primary {
+    background-color: var(--color-primary);
+    color: white;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.button:hover {
+    background-color: lightgreen;
+}
+
+.button-icon {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
