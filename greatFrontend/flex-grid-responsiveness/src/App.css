@@ -1,0 +1,38 @@
+:root {
+  font-family: 'Lato', sans-serif;
+}
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.item {
+  color: white;
+  height: 150px;
+  background-color: #2e3a4a;
+  border-radius: 10px;
+  border: 1px black solid;
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+/*.container {*/
+/*  align-items: center;*/
+/*  justify-content: center;*/
+/*  display: flex;*/
+/*  flex-direction: row;*/
+/*  flex-wrap: wrap;*/
+/*}*/
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  justify-content: center;
+  align-items: center;
+}
